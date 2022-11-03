@@ -1,0 +1,119 @@
+2022-11-03 11:44:26,653 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 11:44:26,653 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 11:44:26,654 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=%D0%90%D0%BD%D0%B0%D0%BF%D0%B0&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 11:44:26,654 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 11:44:26,981 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=%D0%90%D0%BD%D0%B0%D0%BF%D0%B0&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 11:44:27,006 - INFO - Данные в sqlite успешно записаны! - root - weather.py - sql - 99
+2022-11-03 11:45:42,445 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 11:45:42,446 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 11:45:42,446 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=dsgsa+va+aerhagdrlmgnbkJSEHr%2CCM&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 11:45:42,447 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 11:45:42,790 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=dsgsa+va+aerhagdrlmgnbkJSEHr%2CCM&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 11:48:32,994 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 11:48:32,994 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 11:48:32,995 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=%D1%8B%D0%BE%D1%8B%D0%BE%D1%80%D0%B2&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 11:48:32,995 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 11:48:33,329 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=%D1%8B%D0%BE%D1%8B%D0%BE%D1%80%D0%B2&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 11:54:53,269 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 11:54:53,269 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 11:54:53,269 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=%D1%83%D0%BF%D1%83%D1%84%D0%BA%D0%BF%D1%84%D1%83&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 11:54:53,269 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 11:54:53,574 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=%D1%83%D0%BF%D1%83%D1%84%D0%BA%D0%BF%D1%84%D1%83&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 11:54:53,579 - ERROR - Такого города не существует - root - weather.py - main - 119
+2022-11-03 11:55:50,968 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 11:55:50,969 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 11:55:50,969 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=%D0%9A%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D1%81%D0%BB%D1%8C&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 11:55:50,972 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 11:55:51,305 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=%D0%9A%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D1%81%D0%BB%D1%8C&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 11:55:51,305 - INFO - Координаты города успешно определены - root - weather.py - main - 115
+2022-11-03 11:55:51,318 - DEBUG - Starting new HTTPS connection (1): api.weather.yandex.ru:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 11:55:52,035 - DEBUG - https://api.weather.yandex.ru:443 "GET /v2/informers/?lat=57.6159476&lon=39.8962372&lang=ru_RU HTTP/1.1" 200 564 - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 11:56:04,671 - INFO - Данные в sqlite успешно записаны! - root - weather.py - sql - 89
+2022-11-03 11:59:16,730 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 11:59:16,731 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 11:59:16,732 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%BE&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 11:59:16,732 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 11:59:17,063 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%BE&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 11:59:17,063 - INFO - Координаты города успешно определены - root - weather.py - main - 113
+2022-11-03 11:59:17,080 - DEBUG - Starting new HTTPS connection (1): api.weather.yandex.ru:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 11:59:17,865 - DEBUG - https://api.weather.yandex.ru:443 "GET /v2/informers/?lat=55.965137&lon=43.071114&lang=ru_RU HTTP/1.1" 200 543 - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 11:59:31,487 - INFO - Данные записаны в файл - root - weather.py - weather_in_the_city - 66
+2022-11-03 11:59:31,513 - INFO - Данные в sqlite успешно записаны! - root - weather.py - sql - 86
+2022-11-03 12:00:51,975 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 12:00:51,975 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 12:00:51,976 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=%D0%90%D1%80%D0%B3%D1%83%D0%BD%D0%BE%D0%B2%D0%BE&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 12:00:51,976 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 12:00:52,305 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=%D0%90%D1%80%D0%B3%D1%83%D0%BD%D0%BE%D0%B2%D0%BE&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 12:00:52,308 - INFO - Координаты города успешно определены - root - weather.py - main - 112
+2022-11-03 12:00:52,320 - DEBUG - Starting new HTTPS connection (1): api.weather.yandex.ru:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 12:00:52,902 - DEBUG - https://api.weather.yandex.ru:443 "GET /v2/informers/?lat=59.866188&lon=38.907314&lang=ru_RU HTTP/1.1" 200 492 - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 12:00:53,185 - INFO - Данные записаны в файл - root - weather.py - weather_in_the_city - 65
+2022-11-03 12:00:53,217 - INFO - Данные в sqlite успешно записаны! - root - weather.py - sql - 85
+2022-11-03 12:27:00,695 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 12:27:00,710 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 12:27:00,710 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=London&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 12:27:00,710 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 12:27:01,214 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=London&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 12:27:01,220 - INFO - Координаты населённого пункта успешно определены - root - weather.py - main - 137
+2022-11-03 12:27:01,232 - DEBUG - Starting new HTTPS connection (1): api.weather.yandex.ru:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 12:27:01,714 - DEBUG - https://api.weather.yandex.ru:443 "GET /v2/informers/?lat=51.5073219&lon=-0.1276474&lang=ru_RU HTTP/1.1" 200 556 - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 12:27:01,964 - INFO - Данные записаны в файл - root - weather.py - weather_in_the_city - 66
+2022-11-03 12:27:35,851 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 12:27:35,851 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 12:27:35,851 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=London&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 12:27:35,866 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 12:27:36,194 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=London&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 12:27:36,194 - INFO - Координаты населённого пункта успешно определены - root - weather.py - main - 137
+2022-11-03 12:27:36,194 - DEBUG - Starting new HTTPS connection (1): api.weather.yandex.ru:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 12:27:36,694 - DEBUG - https://api.weather.yandex.ru:443 "GET /v2/informers/?lat=51.5073219&lon=-0.1276474&lang=ru_RU HTTP/1.1" 200 557 - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 12:27:36,866 - INFO - Данные записаны в файл - root - weather.py - weather_in_the_city - 66
+2022-11-03 12:27:36,882 - INFO - Данные в sqlite успешно записаны! - root - weather.py - sql - 88
+2022-11-03 12:29:02,362 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 12:29:02,362 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 12:29:02,362 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=dgsgsgdsgsgsgsgsgsg&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 12:29:02,362 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 12:29:02,643 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=dgsgsgdsgsgsgsgsgsg&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 12:29:02,643 - ERROR - Такого города не существует - root - weather.py - main - 134
+2022-11-03 12:30:10,333 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 12:30:10,333 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 12:30:10,333 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=cfbzdfbd&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 12:30:10,333 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 12:30:10,598 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=cfbzdfbd&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 12:30:10,614 - ERROR - Такого города не существует - root - weather.py - main - 134
+2022-11-03 12:30:10,630 - INFO - Ошибка в sqlite записана - root - weather.py - sql_error - 111
+2022-11-03 12:46:08,446 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 12:46:08,447 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 12:46:08,448 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=%D0%BF%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 12:46:08,451 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 12:46:08,784 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=%D0%BF%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BE&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 12:46:08,789 - INFO - Координаты населённого пункта успешно определены - root - weather.py - main - 138
+2022-11-03 12:46:08,798 - DEBUG - Starting new HTTPS connection (1): api.weather.yandex.ru:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 12:46:09,332 - DEBUG - https://api.weather.yandex.ru:443 "GET /v2/informers/?lat=59.722256&lon=30.415731&lang=ru_RU HTTP/1.1" 200 520 - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 12:46:09,580 - INFO - Данные записаны в файл - root - weather.py - weather_in_the_city - 66
+2022-11-03 12:46:09,593 - INFO - Данные в sqlite успешно записаны! - root - weather.py - sql - 88
+2022-11-03 14:26:03,580 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 14:26:03,580 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 14:26:03,580 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=%D0%9A%D0%BE%D1%88%D0%BA%D0%B0&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 14:26:03,580 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 14:26:03,878 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=%D0%9A%D0%BE%D1%88%D0%BA%D0%B0&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 14:26:03,878 - INFO - Координаты населённого пункта успешно определены - root - weather.py - main - 137
+2022-11-03 14:26:03,893 - DEBUG - Starting new HTTPS connection (1): api.weather.yandex.ru:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 14:26:04,362 - DEBUG - https://api.weather.yandex.ru:443 "GET /v2/informers/?lat=44.4039005&lon=33.9935584&lang=ru_RU HTTP/1.1" 200 553 - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 14:26:40,977 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 14:26:40,977 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 14:26:40,977 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=%D0%9A%D0%BE%D1%88%D0%BA%D0%B0&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 14:26:40,977 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 14:26:41,290 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=%D0%9A%D0%BE%D1%88%D0%BA%D0%B0&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 14:26:41,290 - INFO - Координаты населённого пункта успешно определены - root - weather.py - main - 138
+2022-11-03 14:26:41,305 - DEBUG - Starting new HTTPS connection (1): api.weather.yandex.ru:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 14:26:41,775 - DEBUG - https://api.weather.yandex.ru:443 "GET /v2/informers/?lat=44.4039005&lon=33.9935584&lang=ru_RU HTTP/1.1" 200 553 - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 14:27:19,370 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 14:27:19,370 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None) - urllib3.util.retry - retry.py - from_int - 351
+2022-11-03 14:27:19,370 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=%D0%9A%D0%BE%D1%88%D0%BA%D0%B0&format=json&limit=1 - geopy - nominatim.py - geocode - 295
+2022-11-03 14:27:19,370 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 14:27:19,683 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=%D0%9A%D0%BE%D1%88%D0%BA%D0%B0&format=json&limit=1 HTTP/1.1" 200 None - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 14:27:19,683 - INFO - Координаты населённого пункта успешно определены - root - weather.py - main - 138
+2022-11-03 14:27:19,683 - DEBUG - Starting new HTTPS connection (1): api.weather.yandex.ru:443 - urllib3.connectionpool - connectionpool.py - _new_conn - 1007
+2022-11-03 14:27:20,167 - DEBUG - https://api.weather.yandex.ru:443 "GET /v2/informers/?lat=44.4039005&lon=33.9935584&lang=ru_RU HTTP/1.1" 200 556 - urllib3.connectionpool - connectionpool.py - _make_request - 465
+2022-11-03 14:27:20,276 - INFO - Данные записаны в файл - root - weather.py - weather_in_the_city - 66
+2022-11-03 14:27:20,307 - INFO - Данные в sqlite успешно записаны! - root - weather.py - sql - 88
