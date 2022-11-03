@@ -65,7 +65,7 @@ def weather_in_the_city(location):
     logging.info("Данные записаны в файл")
 
 
-def sql(location):
+def sql(town, location):
     """Записывает данные в базу данных sqlite"""
     con = sqlite3.connect('db.sqlite')
     cur = con.cursor()
@@ -73,14 +73,15 @@ def sql(location):
     CREATE TABLE IF NOT EXISTS weather(
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         date text,
-        enter_town text,
-        result);
+        town text,
+        location text,
+        result text);
     ''')
     try:
         sqlite_with_parametrs = '''INSERT INTO
-                                   weather(date, enter_town, result)
-                                   VALUES (?, ?, ?);'''
-        data_tuple = (datetime.now(), str(location), 'Greate!')
+                                   weather(date, town, location, result)
+                                   VALUES (?, ?, ?, ?);'''
+        data_tuple = (datetime.now(), town, str(location), 'Greate!')
         cur.execute(sqlite_with_parametrs, data_tuple)
         con.commit()
         con.close()
@@ -89,7 +90,7 @@ def sql(location):
         logging.error(f'Ошибка при записи данных в sqlite: {error}')
 
 
-def sql_error():
+def sql_error(town):
     """Записывает ошибку в базу данных"""
     con = sqlite3.connect('db.sqlite')
     cur = con.cursor()
@@ -97,13 +98,14 @@ def sql_error():
     CREATE TABLE IF NOT EXISTS weather(
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         date text,
-        enter_town text,
+        town text,
+        location text,
         result
     );
     ''')
     sqlite_with_parametrs = '''INSERT INTO weather(date, enter_town, result)
-                                       VALUES (?, ?, ?);'''
-    data_tuple = (datetime.now(), None, 'Error')
+                                       VALUES (?, ?, ?, ?);'''
+    data_tuple = (datetime.now(), town, None, 'Error')
     cur.execute(sqlite_with_parametrs, data_tuple)
     con.commit()
     con.close()
@@ -126,21 +128,21 @@ def main():
             logging.StreamHandler(sys.stdout),
         ],
     )
+    town = input('Введите населённый пункт: ')
     try:
-        town = input('Введите населённый пункт: ')
         location = geolocation(town)
         if location is None:
             logging.error("Такого города не существует")
-            sql_error()
+            sql_error(town)
             raise TownDoesNotExist
         else:
             logging.info("Координаты населённого пункта успешно определены")
 
         weather_in_the_city(location)
-        sql(location)
+        sql(town, location)
         subprocess.call('weather.xlsx', shell=True)
     except Error:
-        sql_error()
+        sql_error(town)
 
 
 if __name__ == '__main__':
